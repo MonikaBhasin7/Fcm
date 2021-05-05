@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1080647771836",
+    "project_id": "fcmproject-a2307",
+    "storage_bucket": "fcmproject-a2307.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080647771836:android:871750bf6490de22a2d2b9",
+        "android_client_info": {
+          "package_name": "com.hk.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080647771836-dk1dd6quvpttre6boojodqliaei4ahit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSXU9V-CSc-IubRbV1BNMQlb0xFU8yUTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080647771836-dk1dd6quvpttre6boojodqliaei4ahit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
