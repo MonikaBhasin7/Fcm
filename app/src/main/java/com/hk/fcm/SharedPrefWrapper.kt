@@ -35,6 +35,7 @@ class SharedPrefWrapper {
         try {
             //sharedPref?.edit()?.putString(key, data)?.apply()
             sharedPref?.edit()?.putString(key, data)?.apply()
+            
         } catch (e: Exception) {
 
         }
