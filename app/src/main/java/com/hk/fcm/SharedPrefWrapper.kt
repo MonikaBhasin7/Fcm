@@ -33,9 +33,20 @@ class SharedPrefWrapper {
 
     fun setString(key: String, data: String) {
         try {
+            //sharedPref?.edit()?.putString(key, data)?.apply()
             sharedPref?.edit()?.putString(key, data)?.apply()
         } catch (e: Exception) {
 
         }
     }
+
+    fun getString(key: String): String? {
+        try {
+            return sharedPref?.getString(key, "1")
+        } catch (e: Exception) {
+
+        }
+        return "1"
+    }
+
 }
